@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+.header{
+	width: 88.5%;
+	height: 50px;
+	display: flex;
+	padding: 0 100px;
+	background: #4778AC;
+	z-index: 10;
+}
+.logo{
+	width: 15%;
+	margin-top: 12px;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.menu{
+	width: 70%;
+	margin-top: 12px;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu ul li{
+	margin: 0 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: blue;
+}
+.icon{
+	width: 10%;
+	margin-top: 12px;
+}
+.icon a{
+	color: white;
+	font-size: 18px;
+	margin: 0 10px;
+}
+.text-box{
+	background:rgba(0,0,0,0.58);
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	color: white;
+	text-transform: uppercase;
+	padding: 50px 50px;
+}
+.text-box h3{
+	font-size: 20px;
+	margin: 20px 0;
+}
+.text-box p{
+	font-size: 20px;
+	margin: 20px 0;
+}
+.text-box a{
+	background: #4778AC;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	padding: 1px 20px;
+	letter-spacing: 10px;
+}
+.text-box a:hover{
+	background: blue;
+	color: black;
+}
+.text-box-2{
+	position: absolute;
+	top: 33%;
+	left: 53%;
+}
+.text{
+	padding: 0 100px;
+	margin-top: 30px;
+}
+.thongtin{
+	padding: 0 83px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.box{
+	width: 345px;
+	height: 345px;
+	background: gray;
+	overflow: hidden;
+	margin: 20px;
+	transition-duration: 1s;
+	position: relative;
+}
+.box img{
+	height: 100%;
+}
+.content{
+	width: 345px;
+	height: 100px;
+	color: red;
+	background: rgba(255,255,255,1.00);
+	position: absolute;
+	top: 260px;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 1s;
+}
+.box:hover .content{
+	visibility: visible;
+	opacity: 1;
+}
+.uudai{
+	padding: 0 20px;
+	margin-top: 30px;
+}
+.sapa{
+	padding: 20px 20px;
+	position: relative;
+}
+.tsapa{
+	position: absolute;
+	top: 33%;
+	left: 20%;
+	color: white;
+	background: rgba(0,0,0,0.58);
+	padding: 50px 50px;
+	text-transform: uppercase;
+}
+.trongnuoc{
+	padding: 0 20px;
+	margin-top: 30px;
+	position: relative;
+}
+.dulichtn{
+	width: 100%;
+	height: 1150px;
+	overflow: hidden;
+}
+.box-1{
+	width: 970px;
+	height: 320px;
+	overflow: hidden;
+	margin: 30px 20px;
+	position: absolute;
+}
+.box-2{
+	position: absolute;
+	margin: 30px 1000px;
+}
+.box-3{
+	background: gray;
+	width: 470px;
+	height: 305px;
+	margin: 360px 20px;
+	position: absolute;
+	overflow: hidden;
+}
+.box-4{
+	margin: 360px 500px;
+	position: absolute;
+}
+.box-5{
+	position: absolute;
+	margin: 430px 1000px;
+	width: 523px;
+	height: 235px;
+	overflow: hidden;
+}
+.box-6{
+	margin: 675px 20px;
+	overflow: hidden;
+	width: 1505px;
+	height: 470px;
+}
+.khung1{
+	width: 100%;
+	height: 170px;
+}
+.khung2{
+	width: 70%;
+	margin-top: 50px;
+	margin-left: 290px
+}
+.khung2 ul{
+	display: flex;
+	list-style: none;
+}
+.khung2 ul li{
+	margin: 0 100px;
+}
+.khung2 ul li a{
+	text-decoration: none;
+	color: black;
+}
+.khung2 ul li a:hover{
+	color: blue;
+}
+.khung3{
+	width: 70%;
+	margin-top: 12px;
+	margin-left: 345px;
+}
+.khung3 ul{
+	display: flex;
+	list-style: none;
+}
+.khung3 ul li{
+	margin: 0 100px;
+}
+.khung3 ul li a{
+	text-decoration: none;
+	color: black;
+}
+.khung3 ul li a:hover{
+	color: blue;
+}
